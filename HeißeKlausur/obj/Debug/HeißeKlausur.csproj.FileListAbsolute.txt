@@ -1,0 +1,9 @@
+E:\Dokumente\RiderProjects\HeißeKlausur\HeißeKlausur\bin\Debug\HeißeKlausur.exe.config
+E:\Dokumente\RiderProjects\HeißeKlausur\HeißeKlausur\bin\Debug\HeißeKlausur.exe
+E:\Dokumente\RiderProjects\HeißeKlausur\HeißeKlausur\bin\Debug\HeißeKlausur.pdb
+E:\Dokumente\RiderProjects\HeißeKlausur\HeißeKlausur\obj\Debug\HeißeKlausur.csprojAssemblyReference.cache
+E:\Dokumente\RiderProjects\HeißeKlausur\HeißeKlausur\obj\Debug\HeißeKlausur.Properties.Resources.resources
+E:\Dokumente\RiderProjects\HeißeKlausur\HeißeKlausur\obj\Debug\HeißeKlausur.csproj.GenerateResource.cache
+E:\Dokumente\RiderProjects\HeißeKlausur\HeißeKlausur\obj\Debug\HeißeKlausur.csproj.CoreCompileInputs.cache
+E:\Dokumente\RiderProjects\HeißeKlausur\HeißeKlausur\obj\Debug\HeißeKlausur.exe
+E:\Dokumente\RiderProjects\HeißeKlausur\HeißeKlausur\obj\Debug\HeißeKlausur.pdb
