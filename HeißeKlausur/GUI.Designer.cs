@@ -98,6 +98,7 @@
             this.buttonDatenbanken.TabIndex = 4;
             this.buttonDatenbanken.Text = "Aufgabe bearbeiten";
             this.buttonDatenbanken.UseVisualStyleBackColor = true;
+            this.buttonDatenbanken.Click += new System.EventHandler(this.buttonDatenbanken_Click);
             // 
             // labelGesamt
             // 
@@ -218,6 +219,7 @@
             this.abgabe2.TabIndex = 18;
             this.abgabe2.Text = "Abgabe";
             this.abgabe2.UseVisualStyleBackColor = true;
+            this.abgabe2.Click += new System.EventHandler(this.abgabe2_Click);
             // 
             // GUI
             // 

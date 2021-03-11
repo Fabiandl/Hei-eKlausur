@@ -84,5 +84,22 @@ namespace HeißeKlausur
             buttonCSharp.Enabled = false;
             abgabe1.Enabled = false;
         }
+
+        private void buttonDatenbanken_Click(object sender, EventArgs e)
+        {
+            string labelText = punkte3.Text;
+            bool isButtonEnabled = buttonDatenbanken.Enabled;
+            klausur2.bearbeiteAufgabe(ref labelText, ref isButtonEnabled);
+
+            punkte3.Text = labelText;
+            buttonDatenbanken.Enabled = isButtonEnabled;
+            UpdateAllPoints();
+        }
+
+        private void abgabe2_Click(object sender, EventArgs e)
+        {
+            buttonDatenbanken.Enabled = false;
+            abgabe2.Enabled = false;
+        }
     }
 }
