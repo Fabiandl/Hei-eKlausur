@@ -53,6 +53,7 @@ namespace HeißeKlausur
             var allPoints = points01 + points02 + points03;
             labelSumPunkte.Text = allPoints.ToString();
         }
-        
+
+
     }
 }
