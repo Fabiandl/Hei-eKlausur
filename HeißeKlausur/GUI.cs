@@ -24,13 +24,19 @@ namespace HeißeKlausur
             klausur1 = new LogikKlausur("C#");
             klausur2 = new LogikKlausur("Datenbanken");
             
+            InitializeUi();
+        }
+
+        private void InitializeUi()
+        {
             this.labelKlausur0.Text = klausur0.name;
             this.labelKlausur1.Text = klausur1.name;
             this.labelKlausur2.Text = klausur2.name;
-       
+
             punkte1.Text = "0";
             punkte2.Text = "0";
             punkte3.Text = "0";
+            labelSumPunkte.Text = "0";
         }
 
         private void button0_Click(object sender, EventArgs e)

@@ -154,7 +154,7 @@
             this.labelSumPunkte.Name = "labelSumPunkte";
             this.labelSumPunkte.Size = new System.Drawing.Size(84, 27);
             this.labelSumPunkte.TabIndex = 12;
-            this.labelSumPunkte.Text = "label3";
+            this.labelSumPunkte.Text = "labelSumPunkte";
             // 
             // pictureBox1
             // 
