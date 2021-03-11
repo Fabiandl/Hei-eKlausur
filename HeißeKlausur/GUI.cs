@@ -27,6 +27,10 @@ namespace HeißeKlausur
             this.labelKlausur0.Text = klausur0.name;
             this.labelKlausur1.Text = klausur1.name;
             this.labelKlausur2.Text = klausur2.name;
+       
+            punkte1.Text = "0";
+            punkte2.Text = "0";
+            punkte3.Text = "0";
         }
 
         private void button0_Click(object sender, EventArgs e)
@@ -37,11 +41,18 @@ namespace HeißeKlausur
 
             label1.Text = labelText;
             buttonNumerik.Enabled = isButtonEnabled;
+            UpdateAllPoints();
         }
 
-        private void labelKlausur0_Click(object sender, EventArgs e)
+        private void UpdateAllPoints()
         {
-            throw new System.NotImplementedException();
+            var points01 = int.Parse(punkte1.Text);
+            var points02 = int.Parse(punkte2.Text);
+            var points03 = int.Parse(punkte3.Text);
+
+            var allPoints = points01 + points02 + points03;
+            labelSumPunkte.Text = allPoints.ToString();
         }
+        
     }
 }

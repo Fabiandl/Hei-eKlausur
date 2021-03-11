@@ -8,3 +8,13 @@ E:\Dokumente\RiderProjects\HeißeKlausur\HeißeKlausur\obj\Debug\HeißeKlausur.c
 E:\Dokumente\RiderProjects\HeißeKlausur\HeißeKlausur\obj\Debug\HeißeKlausur.exe
 E:\Dokumente\RiderProjects\HeißeKlausur\HeißeKlausur\obj\Debug\HeißeKlausur.pdb
 E:\Dokumente\RiderProjects\HeißeKlausur\HeißeKlausur\obj\Debug\HeißeKlausur.GUI.resources
+C:\Users\sebas\Documents\C#\Uebungen\Hei-eKlausur\HeißeKlausur\bin\Debug\HeißeKlausur.exe.config
+C:\Users\sebas\Documents\C#\Uebungen\Hei-eKlausur\HeißeKlausur\bin\Debug\HeißeKlausur.exe
+C:\Users\sebas\Documents\C#\Uebungen\Hei-eKlausur\HeißeKlausur\bin\Debug\HeißeKlausur.pdb
+C:\Users\sebas\Documents\C#\Uebungen\Hei-eKlausur\HeißeKlausur\obj\Debug\HeißeKlausur.csprojAssemblyReference.cache
+C:\Users\sebas\Documents\C#\Uebungen\Hei-eKlausur\HeißeKlausur\obj\Debug\HeißeKlausur.GUI.resources
+C:\Users\sebas\Documents\C#\Uebungen\Hei-eKlausur\HeißeKlausur\obj\Debug\HeißeKlausur.Properties.Resources.resources
+C:\Users\sebas\Documents\C#\Uebungen\Hei-eKlausur\HeißeKlausur\obj\Debug\HeißeKlausur.csproj.GenerateResource.cache
+C:\Users\sebas\Documents\C#\Uebungen\Hei-eKlausur\HeißeKlausur\obj\Debug\HeißeKlausur.csproj.CoreCompileInputs.cache
+C:\Users\sebas\Documents\C#\Uebungen\Hei-eKlausur\HeißeKlausur\obj\Debug\HeißeKlausur.exe
+C:\Users\sebas\Documents\C#\Uebungen\Hei-eKlausur\HeißeKlausur\obj\Debug\HeißeKlausur.pdb
