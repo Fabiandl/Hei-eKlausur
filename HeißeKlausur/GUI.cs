@@ -16,7 +16,7 @@ namespace HeißeKlausur
         private LogikKlausur klausurNumerik;
         private LogikKlausur klausurCSharp;
         private LogikKlausur klausurDatenbanken;
-        
+
         public GUI()
         {
             InitializeComponent();
@@ -33,6 +33,17 @@ namespace HeißeKlausur
 
             label1.Text = labelText;
             buttonNumerik.Enabled = isButtonEnabled;
+            UpdateAllPoints();
+        }
+
+        private void UpdateAllPoints()
+        {
+            var points01 = int.Parse(punkte1.Text);
+            var points02 = int.Parse(punkte2.Text);
+            var points03 = int.Parse(punkte3.Text);
+
+            var allPoints = points01 + points02 + points03;
+            labelSumPunkte.Text = allPoints.ToString();
         }
     }
 }
