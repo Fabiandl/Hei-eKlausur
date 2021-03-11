@@ -16,14 +16,14 @@ namespace HeißeKlausur
         private LogikKlausur klausur0;
         private LogikKlausur klausur1;
         private LogikKlausur klausur2;
-        
+
         public GUI()
         {
             InitializeComponent();
             klausur0 = new LogikKlausur("Numerik");
             klausur1 = new LogikKlausur("C#");
             klausur2 = new LogikKlausur("Datenbanken");
-            
+
             InitializeUi();
         }
 
@@ -60,6 +60,10 @@ namespace HeißeKlausur
             labelSumPunkte.Text = allPoints.ToString();
         }
 
-
+        private void abgabe0_Click(object sender, EventArgs e)
+        {
+            buttonNumerik.Enabled = false;
+            abgabe0.Enabled = false;
+        }
     }
 }

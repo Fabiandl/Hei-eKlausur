@@ -46,6 +46,9 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.abgabe0 = new System.Windows.Forms.Button();
+            this.abgabe1 = new System.Windows.Forms.Button();
+            this.abgabe2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox3)).BeginInit();
@@ -61,7 +64,7 @@
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(25, 180);
+            this.label2.Location = new System.Drawing.Point(12, 212);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(49, 14);
             this.label2.TabIndex = 1;
@@ -97,7 +100,7 @@
             // 
             // labelGesamt
             // 
-            this.labelGesamt.Location = new System.Drawing.Point(88, 219);
+            this.labelGesamt.Location = new System.Drawing.Point(85, 240);
             this.labelGesamt.Name = "labelGesamt";
             this.labelGesamt.Size = new System.Drawing.Size(87, 27);
             this.labelGesamt.TabIndex = 5;
@@ -126,7 +129,7 @@
             // 
             // punkte1
             // 
-            this.punkte1.Location = new System.Drawing.Point(120, 180);
+            this.punkte1.Location = new System.Drawing.Point(104, 212);
             this.punkte1.Name = "punkte1";
             this.punkte1.Size = new System.Drawing.Size(72, 14);
             this.punkte1.TabIndex = 9;
@@ -134,7 +137,7 @@
             // 
             // punkte2
             // 
-            this.punkte2.Location = new System.Drawing.Point(231, 180);
+            this.punkte2.Location = new System.Drawing.Point(227, 212);
             this.punkte2.Name = "punkte2";
             this.punkte2.Size = new System.Drawing.Size(72, 14);
             this.punkte2.TabIndex = 10;
@@ -142,7 +145,7 @@
             // 
             // punkte3
             // 
-            this.punkte3.Location = new System.Drawing.Point(338, 180);
+            this.punkte3.Location = new System.Drawing.Point(332, 212);
             this.punkte3.Name = "punkte3";
             this.punkte3.Size = new System.Drawing.Size(72, 14);
             this.punkte3.TabIndex = 11;
@@ -150,7 +153,7 @@
             // 
             // labelSumPunkte
             // 
-            this.labelSumPunkte.Location = new System.Drawing.Point(188, 218);
+            this.labelSumPunkte.Location = new System.Drawing.Point(185, 239);
             this.labelSumPunkte.Name = "labelSumPunkte";
             this.labelSumPunkte.Size = new System.Drawing.Size(84, 27);
             this.labelSumPunkte.TabIndex = 12;
@@ -186,12 +189,43 @@
             this.pictureBox3.TabIndex = 15;
             this.pictureBox3.TabStop = false;
             // 
+            // abgabe0
+            // 
+            this.abgabe0.Location = new System.Drawing.Point(104, 180);
+            this.abgabe0.Name = "abgabe0";
+            this.abgabe0.Size = new System.Drawing.Size(79, 24);
+            this.abgabe0.TabIndex = 16;
+            this.abgabe0.Text = "Abgabe";
+            this.abgabe0.UseVisualStyleBackColor = true;
+            this.abgabe0.Click += new System.EventHandler(this.abgabe0_Click);
+            // 
+            // abgabe1
+            // 
+            this.abgabe1.Location = new System.Drawing.Point(220, 180);
+            this.abgabe1.Name = "abgabe1";
+            this.abgabe1.Size = new System.Drawing.Size(79, 24);
+            this.abgabe1.TabIndex = 17;
+            this.abgabe1.Text = "Abgabe";
+            this.abgabe1.UseVisualStyleBackColor = true;
+            // 
+            // abgabe2
+            // 
+            this.abgabe2.Location = new System.Drawing.Point(333, 180);
+            this.abgabe2.Name = "abgabe2";
+            this.abgabe2.Size = new System.Drawing.Size(79, 24);
+            this.abgabe2.TabIndex = 18;
+            this.abgabe2.Text = "Abgabe";
+            this.abgabe2.UseVisualStyleBackColor = true;
+            // 
             // GUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Info;
-            this.ClientSize = new System.Drawing.Size(458, 251);
+            this.ClientSize = new System.Drawing.Size(458, 289);
+            this.Controls.Add(this.abgabe2);
+            this.Controls.Add(this.abgabe1);
+            this.Controls.Add(this.abgabe0);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
@@ -216,6 +250,11 @@
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
         }
+
+        private System.Windows.Forms.Button abgabe1;
+        private System.Windows.Forms.Button abgabe2;
+
+        private System.Windows.Forms.Button abgabe0;
 
         private System.Windows.Forms.PictureBox pictureBox3;
 
