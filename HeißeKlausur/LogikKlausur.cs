@@ -20,7 +20,7 @@ namespace HeißeKlausur
         {
             if (anzahlBisDurchgefallen == punkte)
             {
-                points = punkte.ToString();
+                points = "0";
                 isButtonEnabled = false;
             }
             else
