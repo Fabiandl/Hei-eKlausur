@@ -7,3 +7,4 @@ E:\Dokumente\RiderProjects\HeißeKlausur\HeißeKlausur\obj\Debug\HeißeKlausur.c
 E:\Dokumente\RiderProjects\HeißeKlausur\HeißeKlausur\obj\Debug\HeißeKlausur.csproj.CoreCompileInputs.cache
 E:\Dokumente\RiderProjects\HeißeKlausur\HeißeKlausur\obj\Debug\HeißeKlausur.exe
 E:\Dokumente\RiderProjects\HeißeKlausur\HeißeKlausur\obj\Debug\HeißeKlausur.pdb
+E:\Dokumente\RiderProjects\HeißeKlausur\HeißeKlausur\obj\Debug\HeißeKlausur.GUI.resources
