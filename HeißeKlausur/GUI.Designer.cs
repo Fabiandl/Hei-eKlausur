@@ -49,9 +49,15 @@
             this.abgabe0 = new System.Windows.Forms.Button();
             this.abgabe1 = new System.Windows.Forms.Button();
             this.abgabe2 = new System.Windows.Forms.Button();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox6)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -221,12 +227,48 @@
             this.abgabe2.UseVisualStyleBackColor = true;
             this.abgabe2.Click += new System.EventHandler(this.abgabe2_Click);
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::HeißeKlausur.Properties.Resources._42880013;
+            this.pictureBox4.Location = new System.Drawing.Point(104, 43);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(80, 81);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 19;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Visible = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::HeißeKlausur.Properties.Resources._42880013;
+            this.pictureBox5.Location = new System.Drawing.Point(219, 43);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(80, 81);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 20;
+            this.pictureBox5.TabStop = false;
+            this.pictureBox5.Visible = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::HeißeKlausur.Properties.Resources._42880013;
+            this.pictureBox6.Location = new System.Drawing.Point(333, 43);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(80, 81);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 21;
+            this.pictureBox6.TabStop = false;
+            this.pictureBox6.Visible = false;
+            // 
             // GUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Info;
             this.ClientSize = new System.Drawing.Size(458, 289);
+            this.Controls.Add(this.pictureBox6);
+            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.abgabe2);
             this.Controls.Add(this.abgabe1);
             this.Controls.Add(this.abgabe0);
@@ -252,8 +294,18 @@
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox6)).EndInit();
             this.ResumeLayout(false);
         }
+
+        private System.Windows.Forms.PictureBox pictureBox6;
+
+        private System.Windows.Forms.PictureBox pictureBox5;
+        
+
+        private System.Windows.Forms.PictureBox pictureBox4;
 
         private System.Windows.Forms.Button abgabe1;
         private System.Windows.Forms.Button abgabe2;

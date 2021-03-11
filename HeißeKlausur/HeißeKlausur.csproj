@@ -84,6 +84,7 @@
       <Content Include="Resources\csharp_e7b8fcd4ce.png" />
       <Content Include="Resources\math_27248_1280.png" />
       <Content Include="Resources\officedatabase_104402.png" />
+      <Content Include="Resources\_42880013.gif" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

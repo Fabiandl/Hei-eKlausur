@@ -63,6 +63,16 @@ namespace HeißeKlausur.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _42880013 {
+            get {
+                object obj = ResourceManager.GetObject("_42880013", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap csharp_e7b8fcd4ce {
             get {
                 object obj = ResourceManager.GetObject("csharp_e7b8fcd4ce", resourceCulture);

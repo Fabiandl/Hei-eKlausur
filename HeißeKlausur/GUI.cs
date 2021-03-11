@@ -44,6 +44,11 @@ namespace HeißeKlausur
             string labelText = punkte1.Text;
             bool isButtonEnabled = buttonNumerik.Enabled;
             klausur0.bearbeiteAufgabe(ref labelText, ref isButtonEnabled);
+            if (!isButtonEnabled)
+            {
+                pictureBox4.Visible = true;
+                abgabe0.Enabled = false;
+            }
 
             punkte1.Text = labelText;
             buttonNumerik.Enabled = isButtonEnabled;
@@ -73,6 +78,11 @@ namespace HeißeKlausur
             string labelText = punkte2.Text;
             bool isButtonEnabled = buttonCSharp.Enabled;
             klausur1.bearbeiteAufgabe(ref labelText, ref isButtonEnabled);
+            if (!isButtonEnabled)
+            {
+                pictureBox5.Visible = true;
+                abgabe1.Enabled = false;
+            }
 
             punkte2.Text = labelText;
             buttonCSharp.Enabled = isButtonEnabled;
@@ -90,6 +100,11 @@ namespace HeißeKlausur
             string labelText = punkte3.Text;
             bool isButtonEnabled = buttonDatenbanken.Enabled;
             klausur2.bearbeiteAufgabe(ref labelText, ref isButtonEnabled);
+            if (!isButtonEnabled)
+            {
+                pictureBox6.Visible = true;
+                abgabe2.Enabled = false;
+            }
 
             punkte3.Text = labelText;
             buttonDatenbanken.Enabled = isButtonEnabled;
