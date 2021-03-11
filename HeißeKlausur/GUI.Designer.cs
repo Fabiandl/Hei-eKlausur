@@ -68,6 +68,7 @@
             this.buttonNumerik.TabIndex = 2;
             this.buttonNumerik.Text = "Aufgabe bearbeiten";
             this.buttonNumerik.UseVisualStyleBackColor = true;
+            this.buttonNumerik.Click += new System.EventHandler(this.buttonNumerik_Click);
             // 
             // buttonCSharp
             // 

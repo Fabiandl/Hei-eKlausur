@@ -25,5 +25,14 @@ namespace HeißeKlausur
             klausurDatenbanken = new LogikKlausur();
         }
 
+        private void buttonNumerik_Click(object sender, EventArgs e)
+        {
+            string labelText = label1.Text;
+            bool isButtonEnabled = buttonNumerik.Enabled;
+            klausurNumerik.bearbeiteAufgabe(ref labelText, ref isButtonEnabled);
+
+            label1.Text = labelText;
+            buttonNumerik.Enabled = isButtonEnabled;
+        }
     }
 }
