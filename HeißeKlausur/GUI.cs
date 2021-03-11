@@ -13,26 +13,35 @@ namespace HeißeKlausur
 {
     public partial class GUI : Form
     {
-        private LogikKlausur klausurNumerik;
-        private LogikKlausur klausurCSharp;
-        private LogikKlausur klausurDatenbanken;
+        private LogikKlausur klausur0;
+        private LogikKlausur klausur1;
+        private LogikKlausur klausur2;
         
         public GUI()
         {
             InitializeComponent();
-            klausurNumerik = new LogikKlausur();
-            klausurCSharp = new LogikKlausur();
-            klausurDatenbanken = new LogikKlausur();
+            klausur0 = new LogikKlausur("Numerik");
+            klausur1 = new LogikKlausur("C#");
+            klausur2 = new LogikKlausur("Datenbanken");
+            
+            this.labelKlausur0.Text = klausur0.name;
+            this.labelKlausur1.Text = klausur1.name;
+            this.labelKlausur2.Text = klausur2.name;
         }
 
-        private void buttonNumerik_Click(object sender, EventArgs e)
+        private void button0_Click(object sender, EventArgs e)
         {
             string labelText = label1.Text;
             bool isButtonEnabled = buttonNumerik.Enabled;
-            klausurNumerik.bearbeiteAufgabe(ref labelText, ref isButtonEnabled);
+            klausur0.bearbeiteAufgabe(ref labelText, ref isButtonEnabled);
 
             label1.Text = labelText;
             buttonNumerik.Enabled = isButtonEnabled;
+        }
+
+        private void labelKlausur0_Click(object sender, EventArgs e)
+        {
+            throw new System.NotImplementedException();
         }
     }
 }

@@ -35,9 +35,9 @@
             this.buttonCSharp = new System.Windows.Forms.Button();
             this.buttonDatenbanken = new System.Windows.Forms.Button();
             this.labelGesamt = new System.Windows.Forms.Label();
-            this.labelNumerik = new System.Windows.Forms.Label();
-            this.labelCSharp = new System.Windows.Forms.Label();
-            this.labelDatenbanken = new System.Windows.Forms.Label();
+            this.labelKlausur0 = new System.Windows.Forms.Label();
+            this.labelKlausur1 = new System.Windows.Forms.Label();
+            this.labelKlausur2 = new System.Windows.Forms.Label();
             this.punkte1 = new System.Windows.Forms.Label();
             this.punkte2 = new System.Windows.Forms.Label();
             this.punkte3 = new System.Windows.Forms.Label();
@@ -46,130 +46,142 @@
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(12, 48);
+            this.label1.Location = new System.Drawing.Point(16, 59);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(89, 18);
+            this.label1.Size = new System.Drawing.Size(119, 22);
             this.label1.TabIndex = 0;
             this.label1.Text = "Name-Klausur:";
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(33, 111);
+            this.label2.Location = new System.Drawing.Point(44, 137);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(49, 14);
+            this.label2.Size = new System.Drawing.Size(65, 17);
             this.label2.TabIndex = 1;
             this.label2.Text = "Punkte:";
             // 
             // buttonNumerik
             // 
-            this.buttonNumerik.Location = new System.Drawing.Point(112, 69);
+            this.buttonNumerik.Location = new System.Drawing.Point(149, 85);
+            this.buttonNumerik.Margin = new System.Windows.Forms.Padding(4);
             this.buttonNumerik.Name = "buttonNumerik";
-            this.buttonNumerik.Size = new System.Drawing.Size(80, 35);
+            this.buttonNumerik.Size = new System.Drawing.Size(107, 43);
             this.buttonNumerik.TabIndex = 2;
             this.buttonNumerik.Text = "Aufgabe bearbeiten";
             this.buttonNumerik.UseVisualStyleBackColor = true;
-            this.buttonNumerik.Click += new System.EventHandler(this.buttonNumerik_Click);
+            this.buttonNumerik.Click += new System.EventHandler(this.button0_Click);
             // 
             // buttonCSharp
             // 
-            this.buttonCSharp.Location = new System.Drawing.Point(227, 69);
+            this.buttonCSharp.Location = new System.Drawing.Point(303, 85);
+            this.buttonCSharp.Margin = new System.Windows.Forms.Padding(4);
             this.buttonCSharp.Name = "buttonCSharp";
-            this.buttonCSharp.Size = new System.Drawing.Size(80, 35);
+            this.buttonCSharp.Size = new System.Drawing.Size(107, 43);
             this.buttonCSharp.TabIndex = 3;
             this.buttonCSharp.Text = "Aufgabe bearbeiten";
             this.buttonCSharp.UseVisualStyleBackColor = true;
             // 
             // buttonDatenbanken
             // 
-            this.buttonDatenbanken.Location = new System.Drawing.Point(340, 69);
+            this.buttonDatenbanken.Location = new System.Drawing.Point(453, 85);
+            this.buttonDatenbanken.Margin = new System.Windows.Forms.Padding(4);
             this.buttonDatenbanken.Name = "buttonDatenbanken";
-            this.buttonDatenbanken.Size = new System.Drawing.Size(80, 35);
+            this.buttonDatenbanken.Size = new System.Drawing.Size(107, 43);
             this.buttonDatenbanken.TabIndex = 4;
             this.buttonDatenbanken.Text = "Aufgabe bearbeiten";
             this.buttonDatenbanken.UseVisualStyleBackColor = true;
             // 
             // labelGesamt
             // 
-            this.labelGesamt.Location = new System.Drawing.Point(96, 150);
+            this.labelGesamt.Location = new System.Drawing.Point(128, 185);
+            this.labelGesamt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelGesamt.Name = "labelGesamt";
-            this.labelGesamt.Size = new System.Drawing.Size(87, 27);
+            this.labelGesamt.Size = new System.Drawing.Size(116, 33);
             this.labelGesamt.TabIndex = 5;
             this.labelGesamt.Text = "Gesamtpunkte:";
             // 
-            // labelNumerik
+            // labelKlausur0
             // 
-            this.labelNumerik.Location = new System.Drawing.Point(128, 48);
-            this.labelNumerik.Name = "labelNumerik";
-            this.labelNumerik.Size = new System.Drawing.Size(55, 18);
-            this.labelNumerik.TabIndex = 6;
-            this.labelNumerik.Text = "Numerik";
+            this.labelKlausur0.Location = new System.Drawing.Point(171, 59);
+            this.labelKlausur0.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelKlausur0.Name = "labelKlausur0";
+            this.labelKlausur0.Size = new System.Drawing.Size(73, 22);
+            this.labelKlausur0.TabIndex = 6;
+            this.labelKlausur0.Click += new System.EventHandler(this.labelKlausur0_Click);
             // 
-            // labelCSharp
+            // labelKlausur1
             // 
-            this.labelCSharp.Location = new System.Drawing.Point(239, 48);
-            this.labelCSharp.Name = "labelCSharp";
-            this.labelCSharp.Size = new System.Drawing.Size(55, 18);
-            this.labelCSharp.TabIndex = 7;
-            this.labelCSharp.Text = "CSharp";
+            this.labelKlausur1.Location = new System.Drawing.Point(319, 59);
+            this.labelKlausur1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelKlausur1.Name = "labelKlausur1";
+            this.labelKlausur1.Size = new System.Drawing.Size(73, 22);
+            this.labelKlausur1.TabIndex = 7;
             // 
-            // labelDatenbanken
+            // labelKlausur2
             // 
-            this.labelDatenbanken.Location = new System.Drawing.Point(346, 48);
-            this.labelDatenbanken.Name = "labelDatenbanken";
-            this.labelDatenbanken.Size = new System.Drawing.Size(74, 18);
-            this.labelDatenbanken.TabIndex = 8;
-            this.labelDatenbanken.Text = "Datenbanken";
+            this.labelKlausur2.Location = new System.Drawing.Point(461, 59);
+            this.labelKlausur2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelKlausur2.Name = "labelKlausur2";
+            this.labelKlausur2.Size = new System.Drawing.Size(99, 22);
+            this.labelKlausur2.TabIndex = 8;
             // 
             // punkte1
             // 
-            this.punkte1.Location = new System.Drawing.Point(128, 111);
+            this.punkte1.Location = new System.Drawing.Point(171, 137);
+            this.punkte1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.punkte1.Name = "punkte1";
-            this.punkte1.Size = new System.Drawing.Size(72, 14);
+            this.punkte1.Size = new System.Drawing.Size(96, 17);
             this.punkte1.TabIndex = 9;
             this.punkte1.Text = "Punkte1";
             // 
             // punkte2
             // 
-            this.punkte2.Location = new System.Drawing.Point(239, 111);
+            this.punkte2.Location = new System.Drawing.Point(319, 137);
+            this.punkte2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.punkte2.Name = "punkte2";
-            this.punkte2.Size = new System.Drawing.Size(72, 14);
+            this.punkte2.Size = new System.Drawing.Size(96, 17);
             this.punkte2.TabIndex = 10;
             this.punkte2.Text = "Punkte2";
             // 
             // punkte3
             // 
-            this.punkte3.Location = new System.Drawing.Point(346, 111);
+            this.punkte3.Location = new System.Drawing.Point(461, 137);
+            this.punkte3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.punkte3.Name = "punkte3";
-            this.punkte3.Size = new System.Drawing.Size(72, 14);
+            this.punkte3.Size = new System.Drawing.Size(96, 17);
             this.punkte3.TabIndex = 11;
             this.punkte3.Text = "Punkte3";
             // 
             // labelSumPunkte
             // 
-            this.labelSumPunkte.Location = new System.Drawing.Point(196, 149);
+            this.labelSumPunkte.Location = new System.Drawing.Point(261, 183);
+            this.labelSumPunkte.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelSumPunkte.Name = "labelSumPunkte";
-            this.labelSumPunkte.Size = new System.Drawing.Size(84, 27);
+            this.labelSumPunkte.Size = new System.Drawing.Size(112, 33);
             this.labelSumPunkte.TabIndex = 12;
             this.labelSumPunkte.Text = "label3";
             // 
             // GUI
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(441, 208);
+            this.ClientSize = new System.Drawing.Size(588, 256);
             this.Controls.Add(this.labelSumPunkte);
             this.Controls.Add(this.punkte3);
             this.Controls.Add(this.punkte2);
             this.Controls.Add(this.punkte1);
-            this.Controls.Add(this.labelDatenbanken);
-            this.Controls.Add(this.labelCSharp);
-            this.Controls.Add(this.labelNumerik);
+            this.Controls.Add(this.labelKlausur2);
+            this.Controls.Add(this.labelKlausur1);
+            this.Controls.Add(this.labelKlausur0);
             this.Controls.Add(this.labelGesamt);
             this.Controls.Add(this.buttonDatenbanken);
             this.Controls.Add(this.buttonCSharp);
             this.Controls.Add(this.buttonNumerik);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "GUI";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -178,9 +190,9 @@
         private System.Windows.Forms.Label labelSumPunkte;
 
         private System.Windows.Forms.Label labelGesamt;
-        private System.Windows.Forms.Label labelNumerik;
-        private System.Windows.Forms.Label labelCSharp;
-        private System.Windows.Forms.Label labelDatenbanken;
+        private System.Windows.Forms.Label labelKlausur0;
+        private System.Windows.Forms.Label labelKlausur1;
+        private System.Windows.Forms.Label labelKlausur2;
         private System.Windows.Forms.Label punkte1;
         private System.Windows.Forms.Label punkte2;
         private System.Windows.Forms.Label punkte3;
