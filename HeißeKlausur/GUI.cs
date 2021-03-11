@@ -35,11 +35,11 @@ namespace HeißeKlausur
 
         private void button0_Click(object sender, EventArgs e)
         {
-            string labelText = label1.Text;
+            string labelText = punkte1.Text;
             bool isButtonEnabled = buttonNumerik.Enabled;
             klausur0.bearbeiteAufgabe(ref labelText, ref isButtonEnabled);
 
-            label1.Text = labelText;
+            punkte1.Text = labelText;
             buttonNumerik.Enabled = isButtonEnabled;
             UpdateAllPoints();
         }
