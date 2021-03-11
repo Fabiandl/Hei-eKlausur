@@ -25,6 +25,5 @@ namespace HeißeKlausur
             klausurDatenbanken = new LogikKlausur();
         }
 
-
     }
 }
