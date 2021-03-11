@@ -13,13 +13,18 @@ namespace HeißeKlausur
 {
     public partial class GUI : Form
     {
-        private Logik logik;
+        private LogikKlausur klausurNumerik;
+        private LogikKlausur klausurCSharp;
+        private LogikKlausur klausurDatenbanken;
+        
         public GUI()
         {
             InitializeComponent();
-            logik = new Logik();
-
+            klausurNumerik = new LogikKlausur();
+            klausurCSharp = new LogikKlausur();
+            klausurDatenbanken = new LogikKlausur();
         }
-        
+
+
     }
 }
