@@ -88,6 +88,7 @@
             this.buttonCSharp.TabIndex = 3;
             this.buttonCSharp.Text = "Aufgabe bearbeiten";
             this.buttonCSharp.UseVisualStyleBackColor = true;
+            this.buttonCSharp.Click += new System.EventHandler(this.buttonCSharp_Click);
             // 
             // buttonDatenbanken
             // 
@@ -207,6 +208,7 @@
             this.abgabe1.TabIndex = 17;
             this.abgabe1.Text = "Abgabe";
             this.abgabe1.UseVisualStyleBackColor = true;
+            this.abgabe1.Click += new System.EventHandler(this.abgabe1_Click);
             // 
             // abgabe2
             // 

@@ -50,6 +50,14 @@ namespace HeißeKlausur
             UpdateAllPoints();
         }
 
+
+        private void abgabe0_Click(object sender, EventArgs e)
+        {
+            buttonNumerik.Enabled = false;
+            abgabe0.Enabled = false;
+        }
+
+
         private void UpdateAllPoints()
         {
             var points01 = int.Parse(punkte1.Text);
@@ -60,10 +68,21 @@ namespace HeißeKlausur
             labelSumPunkte.Text = allPoints.ToString();
         }
 
-        private void abgabe0_Click(object sender, EventArgs e)
+        private void buttonCSharp_Click(object sender, EventArgs e)
         {
-            buttonNumerik.Enabled = false;
-            abgabe0.Enabled = false;
+            string labelText = punkte2.Text;
+            bool isButtonEnabled = buttonCSharp.Enabled;
+            klausur1.bearbeiteAufgabe(ref labelText, ref isButtonEnabled);
+
+            punkte2.Text = labelText;
+            buttonCSharp.Enabled = isButtonEnabled;
+            UpdateAllPoints();
+        }
+
+        private void abgabe1_Click(object sender, EventArgs e)
+        {
+            buttonCSharp.Enabled = false;
+            abgabe1.Enabled = false;
         }
     }
 }
