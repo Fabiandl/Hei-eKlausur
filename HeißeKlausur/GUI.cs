@@ -23,6 +23,10 @@ namespace HeißeKlausur
             klausurNumerik = new LogikKlausur();
             klausurCSharp = new LogikKlausur();
             klausurDatenbanken = new LogikKlausur();
+
+            punkte1.Text = "0";
+            punkte2.Text = "0";
+            punkte3.Text = "0";
         }
 
         private void buttonNumerik_Click(object sender, EventArgs e)
